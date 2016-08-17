@@ -17,7 +17,7 @@ if (process.argv.indexOf('-p') > -1) { //生产环境
 }
 
 plugins.push(new ExtractTextPlugin('[name].css')); //css单独打包
-plugins.push(new OpenBrowserPlugin({ url: 'http://localhost:3333' })); // 打开浏览器插件
+plugins.push(new OpenBrowserPlugin({ url: 'http://localhost:3333/Name1' })); // 打开浏览器插件
 plugins.push(new webpack.HotModuleReplacementPlugin()); // 启动 热更新 插件
 plugins.push(new uglifyJsPlugin({compress: {warnings: false}}));
 
@@ -95,7 +95,7 @@ module.exports = {
                 loader: 'url?limit=8192'
             },
             {
-                test: /\.(woff|woff2|ttf|svg|eot)(\?v=\d+\.\d+\.\d+)?$/,
+                 test: /\.(eot|woff|svg|ttf|woff2|gif|appcache)(\?|$)/,  // 修正过 这个比较正确
                 loader: "url?limit=10000"
             }
         ]

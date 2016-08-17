@@ -1,8 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import { Router, Route, IndexRoute, browserHistory} from 'react-router';
-import IndexList from '../Component/IndexList';
-import Xxx from '../Component/common/index.js';
-import { Name1,Name2,Name3,Name4,Name5 } from '../Component/IndexList';
+import IndexList from '../Component/common';
+import { Name1,Name2,Name3,Name4,Name5 } from '../Component/common';
 
 // class RouteApp extends Component {
 // 	render(){
@@ -27,7 +26,7 @@ const RouteConfig = () =>
 			<Route path="/Name2" component={Name2}/>
 			<Route path="/Name3" component={Name3}/>
 			<Route path="/Name4" component={Name4}/>
-			<Route path="/Name5" component={Name5}/>
+			
 		</Route>
 	</Router>
 

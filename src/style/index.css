@@ -191,10 +191,36 @@ hr {
 /**/
 /*body{font-size: 20px;}
 .Header-box{height:60px;width:100%;font-size:.8em;}*/
-.Header-box li{width:20%;height:60px;float:left;line-height: 60px;text-align: center;color:#fff;background:#08FF00;}
-.Header-box li a{margin:5px 10px;border-radius: 5px;display:block;line-height: 50px;}
-.Header-box li a.active{background:#3FCC18;}
 
-.Footer-content{position:fixed;bottom:0;width:100%;height:40px;}
-.Footer-content li{text-align: center;line-height: 40px;background: #22AB17;color:#fff;}
+.Header-box {position:fixed;bottom:0;float:left;width:100%;}
+.Header-box li{height:60px;line-height: 60px;text-align: center;color:#fff;background:#F1EBEB;}
+.Header-box li a{margin:5px 10px;border-radius: 5px;display:block;line-height: 50px;font-size:.7em;}
+.Header-box li a.active{background:#E8E1E1;color:#1AA50F;}
+
+.Footer-content{position:fixed;top:0;width:100%;height:40px;}
+.Footer-content li{text-align: center;line-height: 40px;background: #4DC191;color:#fff;font-size:.7em;}
 .Footer-content li.flex-1.active{background: #45D839;}
+
+.se_w_01{width:8em;}
+.Footer-content .se_bj_c_01{background-color: #fff;}
+.Footer-content .se_fn_c{color:#4A4141;}
+
+.bag_box{position: relative;height:30px;margin:5px 4px;}
+.bag_box > div{
+	z-index: 10;
+	width:1em;height:1.4em;
+	position: absolute;
+	top: calc(30% - 0em);
+	left:.7em;
+	background: url('../../images/Case_circle.png') no-repeat;
+	background-size:100%
+}
+.bag_box > input{
+	position: absolute;
+	top:0;left:0;width:100%;
+	height:30px;
+	line-height:30px;
+	border:1px solid #333;
+	text-indent: 2em;
+	border-radius:20px;
+}

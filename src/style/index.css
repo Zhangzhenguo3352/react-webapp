@@ -192,35 +192,79 @@ hr {
 /*body{font-size: 20px;}
 .Header-box{height:60px;width:100%;font-size:.8em;}*/
 
+body{background: #F1ECEC}
 .Header-box {position:fixed;bottom:0;float:left;width:100%;}
-.Header-box li{height:60px;line-height: 60px;text-align: center;color:#fff;background:#F1EBEB;}
-.Header-box li a{margin:5px 10px;border-radius: 5px;display:block;line-height: 50px;font-size:.7em;}
-.Header-box li a.active{background:#E8E1E1;color:#1AA50F;}
+.Header-box li{height:60px;line-height: 60px;text-align: center;color:#fff;background:#E4DEDE;}
+.Header-box li a{   
+	margin: 5px 10px;
+    padding: 12px 10px;
+    border-radius: 5px;
+    display: block;
+    line-height: 14px;
+    font-size: .7em;}
+.Header-box li a.active{background:#D6D1D1;color:#1AA50F;}
 
 .Footer-content{position:fixed;top:0;width:100%;height:40px;}
 .Footer-content li{text-align: center;line-height: 40px;background: #4DC191;color:#fff;font-size:.7em;}
 .Footer-content li.flex-1.active{background: #45D839;}
 
 .se_w_01{width:8em;}
-.Footer-content .se_bj_c_01{background-color: #fff;}
-.Footer-content .se_fn_c{color:#4A4141;}
+.f_cor_LuSe{color:#4dc191;}
 
-.bag_box{position: relative;height:30px;margin:5px 4px;}
+.fn_we_normal{font-weight: normal;}
+.Footer-content .se_bj_c_01{}
+.Footer-content .se_fn_c{color:#4A4141;}
+.f_s_10{font-size:10px;}
+.padd_TRBL_10{padding:10px;}
+.pa_L_5px{padding:0 0 0 5px;}
+.ma_T_5px{margin:5px 0 0 0;}
+.ma_T_10px{margin:10px 0 0 0;}
+.ma_L_5px{margin:0 0 0 5px;}
+.ma_L_10px{margin:0 0 0 10px;}
+.tex_ind_1em{text-indent:1em;}
+.pa_top_10px{margin:10px 0 0 0;}
+.bj_fff{background:#fff;}
+.bor_R_bor_c{border-right:1px solid #E0DCDC;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+.bor_T_bor_c{border-top:1px solid #E0DCDC;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+
+.H-80{height:80px;}
+.H-60{height:60px;}
+.H-50{height:50px;}
+.H-40{height:40px;}
+.W-60{width:60px;background: red}
+
+.content_mar_T_40{margin:40px 0 60px 0;}
+
+
+.bag_box{position: relative;height:30px;margin:5px 4px;font-size:.5em;}
 .bag_box > div{
-	z-index: 10;
-	width:1em;height:1.4em;
-	position: absolute;
-	top: calc(30% - 0em);
-	left:.7em;
-	background: url('../../images/Case_circle.png') no-repeat;
-	background-size:100%
+    z-index: 10;
+    width: 1em;
+    height: 1.4em;
+    position: absolute;
+    top: calc(0% - 0.3em);
+    left: .5em;
 }
+.bag_box > div > i{font-size:10px;}
 .bag_box > input{
+	background-color: #fff;
 	position: absolute;
 	top:0;left:0;width:100%;
 	height:30px;
 	line-height:30px;
-	border:1px solid #333;
-	text-indent: 2em;
 	border-radius:20px;
+	font-size:10px;
+	padding:0 5px 0 20px;
+	font-weight: normal;
+	white-space:nowrap; text-overflow:ellipsis; -o-text-overflow:ellipsis; overflow:hidden;
+}
+.home_content{
+	height:100px;
+	width:100%;
+	text-align: center;
+	line-height: 100px;
+	background: #f90;
+}
+.ser_mar_self{
+	margin:10px 0 0 10px;
 }

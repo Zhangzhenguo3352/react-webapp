@@ -37,10 +37,15 @@ export class Footer extends Component {
 export class DataLoad extends Component {
   render(){
     return(
-      <div>123</div>
+      <div>123 </div>
       )
   }
 }
+
+
+
+
+
 
 export class Nav extends Component {
 

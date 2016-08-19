@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 
+import { Link } from 'react-router';
 
 import {Nav, Footer,DataLoad} from '../indexList.js';
 
@@ -86,10 +87,9 @@ export class Name2 extends Component{
         return(
             <div>
                 <Nav></Nav>
-                <div className="content_mar_T_40">
-wew
-                </div>
-                <Footer/>
+                <Link to="/Name2/Animation_1">sss</Link><br/>
+                <Link to="/Name2/Animation_2">sss</Link><br/>
+                
             </div>
             )
     }

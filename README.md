@@ -50,3 +50,8 @@ IconFont 图标
 			flex.css
 			公共样式
 ```
+
+### 截图
+![Alt text](shot/1.png)
+![Alt text](shot/2.png)
+![Alt text](shot/3.png)

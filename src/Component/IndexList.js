@@ -16,6 +16,7 @@ export class Footer extends Component {
         <li className="flex-2 se_bj_c_01 se_fn_c">
             <form className="bag_box">
                 <div><i className="iconfont">&#xe616;</i></div>
+
                 <input type="text" placeholder="数商家、分类或商家" className=""/>
             </form>
         </li>
@@ -27,7 +28,7 @@ export class Footer extends Component {
 
           <i className="iconfont">&#xe618;</i>
         </li>
-        
+
       </ul></div>
       )
     }
@@ -81,6 +82,6 @@ export class Nav extends Component {
         </ul>
       )
     }
-    
+
 
 }
